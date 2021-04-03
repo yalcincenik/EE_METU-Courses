@@ -5,7 +5,7 @@
   % First floating point representation
   x = rand(1,256);
   y = zeros(1,256);
-y(1) = x(1);
+  y(1) = x(1);
 
 for i=2:length(x)
   y(i) = 0.5*y(i-1)+x(i);
