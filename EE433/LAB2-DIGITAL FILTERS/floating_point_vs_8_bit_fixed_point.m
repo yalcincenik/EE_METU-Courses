@@ -18,9 +18,9 @@ end
   y_fixed(1) = x_fixed(1);
 
 for j = 2:length(x_fixed)
-  y_fixed = (2^(bit_depth))*0.5*y_fixed(j-1)+x_fixed(j);
+  y_fixed(j) = 2^(bit_depth)*0.5*y_fixed(j-1)+x_fixed(j);
+  y_fixed(j) = y_fixed(j) /(2^bit_depth);
 end
-  y_fixed(j) = y_fixed /(2^bit_depth);
 
 % Comparisions the result in the same figure
   n = 1:256;
@@ -30,5 +30,8 @@ end
   hold off;
 
 % Error Analysis
-  error = y-y_fixed ;
-  plot(n,error);
+error = y-y_fixed;
+plot(n,error)
+title('Error Analysis of Floating Point and Fixed Point')
+xlabel('Integer values')
+ylabel('y-y_fixed')
