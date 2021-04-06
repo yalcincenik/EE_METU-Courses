@@ -20,7 +20,7 @@ end
 for j = 2:length(x_fixed)
   y_fixed = (2^(bit_depth))*0.5*y_fixed(j-1)+x_fixed(j);
 end
-  y_fixed = y_fixed /(2^bit_depth);
+  y_fixed(j) = y_fixed /(2^bit_depth);
 
 % Comparisions the result in the same figure
   n = 1:256;
