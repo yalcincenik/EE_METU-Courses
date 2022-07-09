@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1643199804 source:c:\users\yalcincenik\desktop\all_lectures\2)ee\ee441-data structures in c++\programming homeworks\homework 3\e2007565_hw3\linkedlist.cpp
+	"LinkedList.h"
+
+1643199818 c:\users\yalcincenik\desktop\all_lectures\2)ee\ee441-data structures in c++\programming homeworks\homework 3\e2007565_hw3\linkedlist.h
+	<stdio.h>
+	<iostream>
+	"Node.h"
+
+1643200090 c:\users\yalcincenik\desktop\all_lectures\2)ee\ee441-data structures in c++\programming homeworks\homework 3\e2007565_hw3\node.h
+	<stdio.h>
+	<iostream>
+
+1643226912 source:c:\users\yalcincenik\desktop\all_lectures\2)ee\ee441-data structures in c++\programming homeworks\homework 3\e2007565_hw3\main.cpp
+	"Node.h"
+	"LinkedList.h"
+	"Tree.h"
+	<iostream>
+	<iomanip>
+	<vector>
+	<chrono>
+	<fstream>
+
+1643198712 c:\users\yalcincenik\desktop\all_lectures\2)ee\ee441-data structures in c++\programming homeworks\homework 3\e2007565_hw3\tree.h
+	<stdio.h>
+	<iostream>
+	"Node.h"
+
+1643200179 source:c:\users\yalcincenik\desktop\all_lectures\2)ee\ee441-data structures in c++\programming homeworks\homework 3\e2007565_hw3\node.cpp
+	"Node.h"
+
+1643199715 source:c:\users\yalcincenik\desktop\all_lectures\2)ee\ee441-data structures in c++\programming homeworks\homework 3\e2007565_hw3\tree.cpp
+	"Tree.h"
+
